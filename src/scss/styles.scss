@@ -10,6 +10,23 @@ h2
     color: $colorHeading;
 }
 
-h1{
+h1 {
     @extend h2;
+}
+
+.listBtn {
+    width: 80px;
+    height: 20px;
+}
+
+#List { 
+    width: 200px;
+    min-height: 500px;
+    float: left;
+}
+
+#Details {
+    width: 200px;
+    min-height: 200px;
+    float: left;
 }

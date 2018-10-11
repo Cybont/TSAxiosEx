@@ -25,6 +25,7 @@ module.exports = {
         use:[{loader :'file-loader', options: {name: 'bundle.css'}}, 'extract-loader', 'css-loader', 'sass-loader']
     },
     {
+	
       // html files will be copied to the dist folder
       test: /.htm(l*)/,
       use:
